@@ -10,7 +10,7 @@ jobs:
   build:
     if: github.repository == 'laminalfalah/game-catalogue'
     name: Build
-    runs-on: macos-latest
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
         with:
