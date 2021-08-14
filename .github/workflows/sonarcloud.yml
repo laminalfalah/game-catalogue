@@ -1,0 +1,17 @@
+name: SonarCloud Analyze
+
+on:
+  push:
+    branches:
+      - master
+      - development
+
+jobs:
+  build:
+    if: github.repository == 'laminalfalah/game-catalogue'
+    name: Build
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0

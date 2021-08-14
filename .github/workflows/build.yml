@@ -1,0 +1,16 @@
+name: Build Game Catalogue
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build-ios:
+    if: github.repository == 'laminalfalah/game-catalogue'
+    runs-on: macos-latest
+    permissions:
+      contents: read
+      packages: write
+    steps:
+      - uses: actions/checkout@v2

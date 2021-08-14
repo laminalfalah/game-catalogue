@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  CreatorRow.swift
 //  Game Catalogue
 //
 //  Created by Laminal Falah on 12/08/21.
@@ -7,15 +7,15 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct CreatorRow: View {
     var body: some View {
-        Text("Hello, world!")
+        Text("Creator Row")
             .padding()
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct CreatorRow_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        CreatorRow()
     }
 }

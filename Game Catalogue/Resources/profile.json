@@ -1,0 +1,26 @@
+{
+    "fullName": "Laminal Falah",
+    "imageProfile": "me",
+    "email": "laminalfalah08@gmail.com",
+    "job": "IT Operations",
+    "languages": [
+        "Java", "Kotlin", "Go", "Javascript", "Swift"
+    ],
+    "contacts": [
+        {
+            "logo": "linkedin",
+            "name": "Linkedin",
+            "url": "https://www.linkedin.com/in/laminalfalah"
+        },
+        {
+            "logo": "github",
+            "name": "Github",
+            "url": "https://www.github.com/laminalfalah"
+        },
+        {
+            "logo": "gitlab",
+            "name": "Gitlab",
+            "url": "https://www.gitlab.com/laminalfalah"
+        }
+    ]
+}
