@@ -19,8 +19,8 @@ jobs:
         uses: SonarSource/sonarcloud-github-action@master
         with:
           args: >
-            -Dsonar.organization=laminalfalah
-            -Dsonar.projectKey=laminalfalah_game-catalogue
+            -Dsonar.organization=${{ secrets.SONAR_ORGANIZATION }}
+            -Dsonar.projectKey=${{ secrets.SONAR_PROJECT_KEY }}
             -Dsonar.sources=.
             -Dsonar.test.exclusions=**/tests/**
             -Dsonar.verbose=true
