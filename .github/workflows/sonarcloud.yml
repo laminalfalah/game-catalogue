@@ -17,6 +17,13 @@ jobs:
           fetch-depth: 0
       - name: SonarCloud Scan
         uses: SonarSource/sonarcloud-github-action@master
+        with:
+          args: >
+            -Dsonar.organization=laminalfalah
+            -Dsonar.projectKey=laminalfalah_game-catalogue
+            -Dsonar.sources=.
+            -Dsonar.test.exclusions=**/tests/**
+            -Dsonar.verbose=true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
